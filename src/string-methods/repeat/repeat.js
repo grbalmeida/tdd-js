@@ -7,10 +7,6 @@ const repeat = (string, count) => {
         throw new RangeError('Invalid count value')
     }
 
-    if (count == 0) {
-        return ''
-    }
-
     for (let i = 0; i < count; i++) {
         new_string += string
     }
